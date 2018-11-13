@@ -4,18 +4,15 @@ header {
   font-weight: bold;
   color: MediumAquamarine;
   display: flex;
-
   padding-bottom: 10px;
   border-bottom: 1px solid black;
   align-items: center;
-
 }
 
 .logo {
   display: flex;
   flex-grow: 1;
   align-items: center;
-
 }
 
 .logo img {
@@ -26,15 +23,51 @@ header {
 
 nav {
   display: flex;
-
 }
 
 nav span {
   display: inline-block;
-
   width: 100px;
   height: 50px;
-
   text-align: center;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  border: 5px solid black;
+  display: flex;
+}
 
+.column.large {
+  width: 630px;
+  min-width: 315px;
+  height: 95vh;
+  margin: 20px 20px;
+  border: 2px solid red;
+  display: flex;
+  flex-grow: 1;
+}
+
+.column.medium {
+  width: 300px;
+  height: 500px;
+  margin: 20px 20px;
+  border: 2px solid red;
+  display: flex;
+  flex-grow: 1;
+}
+
+.column.small {
+  width: 240px;
+  height: 500px;
+  margin: 20px 20px;
+  border: 2px solid black;
+  display: flex;
+  flex-grow: 1;
+}
+
+.top_a {
+  flex-grow: 1;
+  height: 40px;
+  border: 2px solid blue;
 }
